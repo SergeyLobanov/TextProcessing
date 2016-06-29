@@ -51,7 +51,8 @@ public class TextProcessing {
             requiredSentences.add(sentence);
         }
 
-        System.out.println(requiredSentences);
+        System.out.println("Number of repeating in founded sentences: " + maxNumberOfRepeatedWord);
+        requiredSentences.forEach(System.out::println);
     }
 
     // split text on sentences
