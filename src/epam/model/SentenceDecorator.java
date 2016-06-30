@@ -6,11 +6,7 @@ import java.util.Map;
 /**
  * Created by Сергей on 29.06.2016.
  */
-public class SentenceDecorator implements TextPart{
-    /**
-     * sentence to decorate
-     */
-    private Sentence sentence;
+public class SentenceDecorator extends Sentence{
     /**
      * maximal number of repeating of word int the sentence
      */
@@ -20,8 +16,13 @@ public class SentenceDecorator implements TextPart{
      */
     private String commonRepeatedWord;
 
+    public SentenceDecorator(String text, String textLangRegex) {
+        super(text, textLangRegex);
+        this.maxNumberOfRepeatedWord = 0;
+    }
+
     public SentenceDecorator(Sentence sentence) {
-        this.sentence = sentence;
+        super(sentence.getPart(), sentence.getTextLangRegex());
         this.maxNumberOfRepeatedWord = 0;
     }
 
@@ -59,7 +60,7 @@ public class SentenceDecorator implements TextPart{
     public String[] splitToWords() {
         return removeCode()
                 .toLowerCase()
-                .replaceAll(sentence.getTextLangRegex(), SplitRegex.SIMILAR_SPACE)
+                .replaceAll(getTextLangRegex(), SplitRegex.SIMILAR_SPACE)
                 .replaceAll(SplitRegex.REPLACE_SPACES, SplitRegex.SIMILAR_SPACE)
                 .split(SplitRegex.SIMILAR_SPACE);
     }
@@ -72,7 +73,7 @@ public class SentenceDecorator implements TextPart{
         int bracketCounter = 0;
         int tempIndex = 0;
         boolean withBrackets = false;
-        String text = sentence.getPart();
+        String text = super.getPart();
         for(int i = 0; i < text.length(); i++) {
             if (text.charAt(i) == '{') {
                 if (bracketCounter == 0) {
@@ -112,6 +113,6 @@ public class SentenceDecorator implements TextPart{
         return "Common repeated word is: " + getCommonRepeatedWord()
                 + "\nNumber of repetition: " + getMaxNumberOfRepeatedWord()
                 + "\nSentence: " +
-                sentence.getPart();
+                super.getPart();
     }
 }
