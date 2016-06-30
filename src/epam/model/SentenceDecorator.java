@@ -23,7 +23,6 @@ public class SentenceDecorator implements TextPart{
     public SentenceDecorator(Sentence sentence) {
         this.sentence = sentence;
         this.maxNumberOfRepeatedWord = 0;
-        this.commonRepeatedWord = new String();
     }
 
     /**
