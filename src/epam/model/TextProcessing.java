@@ -1,5 +1,6 @@
 package epam.model;
 
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -66,17 +67,17 @@ public class TextProcessing {
      * @throws IOException
      */
     private String readTextFile() throws IOException {
-        StringBuilder text = new StringBuilder();
-        try (FileReader reader = new FileReader(directory)) {
-            int c;
-            while ((c = reader.read()) != -1) {
-                text.append((char) c);
-            }
-        } catch (IOException ex) {
-            System.out.println(ex.getMessage());
-        }
+        StringBuilder sb = new StringBuilder();
+        try(BufferedReader br = new BufferedReader(new FileReader(directory))) {
+            String line = br.readLine();
 
-        return text.toString();
+            while (line != null) {
+                sb.append(line);
+                sb.append(System.lineSeparator());
+                line = br.readLine();
+            }
+        }
+        return sb.toString();
     }
 
     public void setDirectory(String directory) {

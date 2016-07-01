@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="590be634-7a27-4da3-adb2-bfccbebf819d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/epam/model/TextProcessing.java" afterPath="$PROJECT_DIR$/src/epam/model/TextProcessing.java" />
     </list>
     <ignored path="TextProcessing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentenceDecorator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SentenceDecorator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/epam/model/SentenceDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60362697">
-              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,12 +87,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextProcessing.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TextProcessing.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/epam/model/TextProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.45595855">
+              <caret line="70" column="75" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
+              <folding>
+                <element signature="e#2658#2659#0" expanded="true" />
+                <element signature="e#2708#2709#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,11 +189,11 @@
         <option value="$PROJECT_DIR$/src/epam/model/SplitRegex.java" />
         <option value="$PROJECT_DIR$/src/epam/model/Word.java" />
         <option value="$PROJECT_DIR$/src/epam/model/TextComposite.java" />
-        <option value="$PROJECT_DIR$/src/epam/model/TextProcessing.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/epam/TextProcessingMain.java" />
         <option value="$PROJECT_DIR$/src/epam/model/Sentence.java" />
         <option value="$PROJECT_DIR$/src/epam/model/SentenceDecorator.java" />
+        <option value="$PROJECT_DIR$/src/epam/model/TextProcessing.java" />
       </list>
     </option>
   </component>
@@ -229,6 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,9 +339,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -872,7 +876,9 @@
       <workItem from="1467148071602" duration="178000" />
       <workItem from="1467215255046" duration="12163000" />
       <workItem from="1467276433453" duration="950000" />
-      <workItem from="1467293832822" duration="5406000" />
+      <workItem from="1467293832822" duration="5506000" />
+      <workItem from="1467379240310" duration="209000" />
+      <workItem from="1467386177729" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="Text Processing v0.99 designed">
       <created>1467229324845</created>
@@ -902,7 +908,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63422000" />
+    <option name="totallyTimeSpent" value="63994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -915,7 +921,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -924,8 +930,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32352942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32352942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1053,7 +1059,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2658#2659#0" expanded="true" />
+            <element signature="e#2708#2709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1113,7 +1122,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2658#2659#0" expanded="true" />
+            <element signature="e#2708#2709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,7 +1179,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#2658#2659#0" expanded="true" />
+            <element signature="e#2708#2709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,7 +1218,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="e#2658#2659#0" expanded="true" />
+            <element signature="e#2708#2709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,7 +1257,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-          <folding />
+          <folding>
+            <element signature="e#2658#2659#0" expanded="true" />
+            <element signature="e#2708#2709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1275,7 +1296,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-          <folding />
+          <folding>
+            <element signature="e#2658#2659#0" expanded="true" />
+            <element signature="e#2708#2709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1403,14 +1427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/epam/model/TextProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/epam/model/Sentence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1423,10 +1439,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/epam/model/SentenceDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60362697">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/epam/model/TextProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45595855">
+          <caret line="70" column="75" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
+          <folding>
+            <element signature="e#2658#2659#0" expanded="true" />
+            <element signature="e#2708#2709#0" expanded="true" />
           </folding>
         </state>
       </provider>
